@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+#power1{background-color: gray;}
+#power2{background-color: yellow;}
+#speed1{background-color: red;}
+#speed2{background-color: green;}
+#sint1{background-color: orange;}
+#sint2{background-color: pink;}
+#scan1{background-color:purple;}
+#scan2{background-color: blue;}
+#def1{background-color: brown;}
+#def2{background-color: turquoise;}
+#pt1{background-color: black;}
+#pt2{background-color: lavenderblush;}
+
+
+#grid{
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: 25% 25%;
+  grid-template-rows: repeat(5, 150px);
+}
