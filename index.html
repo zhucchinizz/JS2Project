@@ -9,57 +9,77 @@
 
 </head>
 
-<body>
+<body class = "body">
   <center>
     <h1>Robot Builder</h1>
   </center>
-  <div id = "grid">
-    <div id = power1><button onclick="add(p)">
-      *PLUS*
-    </button>
-    <button onclick="sub(p)">
-      *MINUS*
-    </button>
+  <div id="grid">
+    <div id=pic>
+      <img src = "Images/Moby.png" alt = "Robots">
     </div>
-    <div id = power2><h2>Power</h2><h3>*INPUT VALUE*</h3></div>
-    <div id = speed1>
-  <button onclick="add(s)">
-    *PLUS*
-  </button>
-        <button>
-          *MINUS*
-        </button>
+    <div id=power1><button onclick="add(p)">
+        *PLUS*
+      </button>
+      <button onclick="sub(p)">
+        *MINUS*
+      </button>
     </div>
-      <div id = speed2><h2>Speed</h2><h3>*INPUT VALUE*</h3></div>
-    <div id = "sint1">
-    <button onclick="add(si)">
-      *PLUS*
-    </button>
-    <button onclick= "sub(si)">
-      *MINUS*
-    </button>
+    <div id=power2>
+      <h2>Power</h2>
+      <h3>*INPUT VALUE*</h3>
     </div>
-    <div id = "sint2"><h2>Structural Integrity</h2><h3>*INPUT VALUE*</h3></div>
-    <div id = scan1>
-    <button onclick="toggle(scanner)">
-      *TOGGLE ON*
-    </button>
+    <div id=speed1>
+      <button onclick="add(s)">
+        *PLUS*
+      </button>
+      <button>
+        *MINUS*
+      </button>
     </div>
-    <div id = scan2><h2>Scanner</h2><h3>*INPUT VALUE*</h3></div>
-    <div id = def1>
-    <button onclick="toggle(defensive)">
-      *TOGGLE ON*
-    </button>
+    <div id=speed2>
+      <h2>Speed</h2>
+      <h3>*INPUT VALUE*</h3>
     </div>
-    <div id = def2><h2>Defensive System</h2><h3>*ON OR OFF*</h3></div>
-    <div id = st1>
+    <div id="sint1">
+      <button onclick="add(si)">
+        *PLUS*
+      </button>
+      <button onclick="sub(si)">
+        *MINUS*
+      </button>
+    </div>
+    <div id="sint2">
+      <h2>Structural Integrity</h2>
+      <h3>*INPUT VALUE*</h3>
+    </div>
+    <div id=scan1>
+      <button onclick="toggle(scanner)">
+        *TOGGLE ON*
+      </button>
+    </div>
+    <div id=scan2>
+      <h2>Scanner</h2>
+      <h3>*INPUT VALUE*</h3>
+    </div>
+    <div id=def1>
+      <button onclick="toggle(defensive)">
+        *TOGGLE ON*
+      </button>
+    </div>
+    <div id=def2>
+      <h2>Defensive System</h2>
+      <h3>*ON OR OFF*</h3>
+    </div>
+    <div id=pt1>
       <button onclick="toggle(solar)">Solar Power</button>
       <button onclick="toggle(hydro)">Hydro Power</button>
       <button onclick="toggle(nuclear)">Nuclear Power</button>
     </div>
-      <div id = pt2><h2>Power Type</h2><h3>*POWER VALUE*</h3></div>
+    <div id=pt2>
+      <h2>Power Type</h2>
+      <h3>*POWER VALUE*</h3>
+    </div>
   </div>
   <script src="script.js"></script>
 </body>
-
 </html>
