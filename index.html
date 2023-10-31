@@ -15,7 +15,7 @@
   </center>
   <div id="grid">
     <div id=pic>
-      <img src = "Images/Moby.png" alt = "Robots">
+      <img src = "Images/blank.jpg" alt = "Robots">
     </div>
     <div id=power1><button onclick="add(p)">
         *PLUS*
@@ -26,7 +26,7 @@
     </div>
     <div id=power2>
       <h2>Power</h2>
-      <h3>*INPUT VALUE*</h3>
+      <h3 id = pVal>*INPUT VALUE*</h3>
     </div>
     <div id=speed1>
       <button onclick="add(s)">
@@ -38,9 +38,9 @@
     </div>
     <div id=speed2>
       <h2>Speed</h2>
-      <h3>*INPUT VALUE*</h3>
+      <h3 id = sVal>*INPUT VALUE*</h3>
     </div>
-    <div id="sint1">
+    <div id="si1">
       <button onclick="add(si)">
         *PLUS*
       </button>
@@ -48,9 +48,9 @@
         *MINUS*
       </button>
     </div>
-    <div id="sint2">
+    <div id="si2">
       <h2>Structural Integrity</h2>
-      <h3>*INPUT VALUE*</h3>
+      <h3 = siVal>*INPUT VALUE*</h3>
     </div>
     <div id=scan1>
       <button onclick="toggle(scanner)">
@@ -59,7 +59,7 @@
     </div>
     <div id=scan2>
       <h2>Scanner</h2>
-      <h3>*INPUT VALUE*</h3>
+      <h3 = scanVal>*INPUT VALUE*</h3>
     </div>
     <div id=def1>
       <button onclick="toggle(defensive)">
@@ -68,7 +68,7 @@
     </div>
     <div id=def2>
       <h2>Defensive System</h2>
-      <h3>*ON OR OFF*</h3>
+      <h3 = defVal>*ON OR OFF*</h3>
     </div>
     <div id=pt1>
       <button onclick="toggle(solar)">Solar Power</button>
@@ -77,7 +77,7 @@
     </div>
     <div id=pt2>
       <h2>Power Type</h2>
-      <h3>*POWER VALUE*</h3>
+      <h3 = typeVal>*POWER VALUE*</h3>
     </div>
   </div>
   <script src="script.js"></script>
