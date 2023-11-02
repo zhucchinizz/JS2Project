@@ -3,8 +3,12 @@ function initilize(){
   pVar = 0;
   speed = document.getElementById(sVal);
   sVar = 0;
-  
-  StructuralIntegritiy = document.getElementById(siVal);
+  structuralintegritiy = document.getElementById(siVal);
   siVar = 0;
+  scanVal = false;
+  defVal = false;
+  typeVal = "No Power Installed";
 }
-plus(String)
+add(String){
+
+}
