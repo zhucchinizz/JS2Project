@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Builder</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <style>
+    h5 {
+      height: 600px;
+      text-align: center;
+    }
+
+    h6 {
+      height: 200px;
+      text-align: center;
+    }
+
+    img {
+      height: 100%;
+      padding: 10px;
+    }
+
+    @media (max-width: 800px) {
+      h5{
+        height: 250px;
+      }
+      h6{
+        height: 60px;
+      } 
+    }
+    @media (min-width: 801px) and (max-width: 1290px) {
+      h5{
+        height: 400px;
+      }
+      h6{
+        height: 100px;
+      }
+    }
+    @media (min-width: 1290px) {
+      h5{
+        height:600px;
+      }
+      h6{
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+
+<body id=body onload="initial();">
+  <span>
+  <center>
+    <h1>Robot Builder</h1>
+  </center>
+  <h6>
+    <img onclick="transform('Images/blitz.jpg');" src="Images/blitz.jpg">
+    <img onclick="transform('Images/bumblebee.png');" src="Images/bumblebee.png">
+    <img onclick="transform('Images/Moby.png');" src="Images/Moby.png">
+    <img onclick="transform('Images/terminator.jpg');"
+      src="Images/terminator.jpg">
+    <img onclick="transform('Images/ultraman.jpg');" src="Images/ultraman.jpg">
+    <img onclick="transform('Images/Wall-E.jpg');" src="Images/Wall-E.jpg">
+  </h6>
+  <center><button id=final onclick="finalize()">Finalize</button></center>
+  <div id="grid">
+    <div id=pic>
+      <h5><img id=view src="" alt=""></h5>
+    </div>
+    <div id=power1><button onclick="add('p')">
+        PLUS
+      </button>
+      <button onclick="sub('p')">
+        MINUS
+      </button>
+    </div>
+    <div id=power2>
+      <h2>Power</h2>
+      <h3 id=pVal></h3>
+    </div>
+    <div id=speed1>
+      <button onclick="add('s')">
+        PLUS
+      </button>
+      <button onclick="sub('s')">
+        MINUS
+      </button>
+    </div>
+    <div id=speed2>
+      <h2>Speed</h2>
+      <h3 id=sVal></h3>
+    </div>
+    <div id="si1">
+      <button onclick="add('si')">
+        PLUS
+      </button>
+      <button onclick="sub('si')">
+        MINUS
+      </button>
+    </div>
+    <div id="si2">
+      <h2>Structural Integrity</h2>
+      <h3 id=siVal></h3>
+    </div>
+    <div id=scan1>
+      <button onclick="toggle('scanner')">
+        TOGGLE
+      </button>
+    </div>
+    <div id=scan2>
+      <h2>Scanner</h2>
+      <h3 id=scanVal></h3>
+    </div>
+    <div id=def1>
+      <button onclick="toggle('defensive')">
+        TOGGLE
+      </button>
+    </div>
+    <div id=def2>
+      <h2>Defensive System</h2>
+      <h3 id=defVal></h3>
+    </div>
+    <div id=pt1>
+      <button onclick="toggle('solar')">Solar Power</button>
+      <button onclick="toggle('hydro')">Hydro Power</button>
+      <button onclick="toggle('nuclear')">Nuclear Power</button>
+    </div>
+    <div id=pt2>
+      <h2>Power Type</h2>
+      <h3 id=typeVal></h3>
+    </div>
+  </div>
+    </span>
+</body>
+
+</html>

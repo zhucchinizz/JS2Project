@@ -3,77 +3,173 @@ html {
   width: 100%;
 }
 
-#power1{display: flex; background-color: gray; align-items: center; justify-content: center;}
-#power2{color: white;background-color: gray; text-align: center}
-#speed1{display: flex; background-color: gray; align-items: center; justify-content: center;}
-#speed2{color: white;background-color: gray; text-align: center}
-#si1{display: flex; background-color: gray; align-items: center; justify-content: center;}
-#si2{color: white;background-color: gray; text-align: center}
-#scan1{display: flex; background-color: gray; align-items: center; justify-content: center;}
-#scan2{color: white;background-color: gray; text-align: center}
-#def1{display: flex; background-color: gray; align-items: center; justify-content: center;}
-#def2{color: white;background-color: gray; text-align: center}
-#pt1{display: flex; background-color: gray; align-items: center; justify-content: center;}
-#pt2{color: white;background-color: gray; text-align: center}
-#pic{grid-column-end: 1; grid-row: span 6; scale: 100%; text-align: center; margin-top: +150px;}
+#power1 {
+  display: flex;
+  background-color: orange;
+  align-items: center;
+  justify-content: center;
+}
 
-#grid{
+#power2 {
+  color: white;
+  background-color: orange;
+  text-align: center
+}
+
+#speed1 {
+  display: flex;
+  background-color: orange;
+  align-items: center;
+  justify-content: center;
+}
+
+#speed2 {
+  color: white;
+  background-color: orange;
+  text-align: center
+}
+
+#si1 {
+  display: flex;
+  background-color: orange;
+  align-items: center;
+  justify-content: center;
+}
+
+#si2 {
+  color: white;
+  background-color: orange;
+  text-align: center
+}
+
+#scan1 {
+  display: flex;
+  background-color: orange;
+  align-items: center;
+  justify-content: center;
+}
+
+#scan2 {
+  color: white;
+  background-color: orange;
+  text-align: center
+}
+
+#def1 {
+  display: flex;
+  background-color: orange;
+  align-items: center;
+  justify-content: center;
+}
+
+#def2 {
+  color: white;
+  background-color: orange;
+  text-align: center
+}
+
+#pt1 {
+  display: flex;
+  background-color: orange;
+  align-items: center;
+  justify-content: center;
+}
+
+#pt2 {
+  color: white;
+  background-color: orange;
+  text-align: center
+}
+
+#pic {
+  grid-column-end: 1;
+  grid-row: span 6;
+  scale: 100%;
+  text-align: center;
+  margin-top: +150px;
+}
+
+#grid {
   display: grid;
   grid-gap: 8px;
   grid-template-columns: 25% 25%;
   grid-template-rows: repeat(6, 150px);
-  background-color: #a94fb5;
+  background-color: teal;
 }
 
-#button{
+#button {
   height: 150px;
   width: 50px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.body{
-  background-color: light;
+h2 {
+  text-decoration: underline;
 }
 
-
-
-@media (max-width: 600x){
-
-    h1 {
-        font-size: 24px;
-    }
-    p {
-        font-size: 16px;
-    }
-    img {
-        width: auto;
-        height: auto;
-    }
+h3 {
+  font-size: 40px;
 }
-@media (min-width: 601px) and  (max-width: 1024px){
-    h1{
-        font-size: 32px;
-    }
-    p {
-        font-size: 18px;
-    }
-    img {
-        width: auto;
-        height: auto;
-    }
+
+body {
+  background-color: lightblue;
 }
-@media (min-width: 1025px){
-    body{
-        max-width: 1920px;
-        margin: 0 auto;
-    }
-    h1 {
-        font-size: 48px;
-    }
-    p {
-        font-size: 20px;
-    }
-    img {
-        width: auto;
-        height: auto;
-    }
+
+button{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 600x) {
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  img {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  img {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media (min-width: 1025px) {
+  body {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  img {
+    width: auto;
+    height: auto;
+  }
+}
+
+span{
+  font-family: 'Courier New', Courier, monospace;
 }

@@ -1,85 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build Your Robot</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body class = "body">
-  <center>
-    <h1>Robot Builder</h1>
-  </center>
-  <div id="grid">
-    <div id=pic>
-      <img src = "Images/blank.jpg" alt = "Robots">
-    </div>
-    <div id=power1><button onclick="add(p)">
-        *PLUS*
-      </button>
-      <button onclick="sub(p)">
-        *MINUS*
-      </button>
-    </div>
-    <div id=power2>
-      <h2>Power</h2>
-      <h3 id = pVal>*INPUT VALUE*</h3>
-    </div>
-    <div id=speed1>
-      <button onclick="add(s)">
-        *PLUS*
-      </button>
-      <button>
-        *MINUS*
-      </button>
-    </div>
-    <div id=speed2>
-      <h2>Speed</h2>
-      <h3 id = sVal>*INPUT VALUE*</h3>
-    </div>
-    <div id="si1">
-      <button onclick="add(si)">
-        *PLUS*
-      </button>
-      <button onclick="sub(si)">
-        *MINUS*
-      </button>
-    </div>
-    <div id="si2">
-      <h2>Structural Integrity</h2>
-      <h3 = siVal>*INPUT VALUE*</h3>
-    </div>
-    <div id=scan1>
-      <button onclick="toggle(scanner)">
-        *TOGGLE ON*
-      </button>
-    </div>
-    <div id=scan2>
-      <h2>Scanner</h2>
-      <h3 = scanVal>*INPUT VALUE*</h3>
-    </div>
-    <div id=def1>
-      <button onclick="toggle(defensive)">
-        *TOGGLE ON*
-      </button>
-    </div>
-    <div id=def2>
-      <h2>Defensive System</h2>
-      <h3 = defVal>*ON OR OFF*</h3>
-    </div>
-    <div id=pt1>
-      <button onclick="toggle(solar)">Solar Power</button>
-      <button onclick="toggle(hydro)">Hydro Power</button>
-      <button onclick="toggle(nuclear)">Nuclear Power</button>
-    </div>
-    <div id=pt2>
-      <h2>Power Type</h2>
-      <h3 = typeVal>*POWER VALUE*</h3>
-    </div>
-  </div>
-  <script src="script.js"></script>
+<body>
+  <span>
+    <center>
+      <h1>Robot Builder</h1>
+      <p>Click on the images to enlarge them</p>
+      <p>You have to choose a power type before changing the values</p>
+      <p>Click finalize when done</p>
+      <button><a href="robot.html" title="robot" target=""> Click to Start</a></button>
+    </center>
+  </span>
 </body>
+
 </html>
